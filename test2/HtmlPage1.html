@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html ng-app = "myapp">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/JavaScript.js"></script>
+    <script src="scripts/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.min.js"></script>
+</head>
+<body >
+    <div>
+        {{ ['pam', 'sara', 'joy'][2] }}
+    </div>
+
+    <div>
+        40 + 40 = {{ 40 + 40}}
+    </div>
+
+    <div ng-controller="HelloController">
+        <div>First Name : {{ employee.firstname }}</div>
+        <div>Last Name : {{ employee.lastname }}</div>
+        <div>Gender : {{ employee.gender}}</div>
+    </div>
+
+
+</body>
+</html>
